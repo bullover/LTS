@@ -22,15 +22,15 @@ void LTSCore::RunCore()
 {
 
 
-    if(m_uptr_ConfigCore==nullptr)
-    {
+//    if(m_uptr_ConfigCore==nullptr)!!!!!
+//    {
 //        std::stringstream ss;
 //        ss << "m_sptr_CorvusCore is nullptr" ;
 
 //        GlobalLogger::Log(Logger::Type_t::WARNING, "CorvusCore",
 //                          ss.str());
-        return void();
-    }
+//        return void();
+  //  }
 
     if(m_sptr_CorvusCore==nullptr)
     {
